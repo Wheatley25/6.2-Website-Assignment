@@ -24,6 +24,7 @@ body{
 }
 
 .socials{
+    gap: 8px;
     display: flex;
     flex-direction: row;
     align-items: center
@@ -33,4 +34,12 @@ body{
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+    border-style: ridge;
+}
+.twitter-logo{
+    border-radius: 8px;
+}
+
+.home-picture{
+    width: 15px;
 }
