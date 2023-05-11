@@ -61,7 +61,7 @@ body {
     margin: 0;
 }
 
-.menu-headers {
+.menu-h1 {
     color: #0000FF;
     font-size: 18px;
     display: flex;
@@ -69,4 +69,13 @@ body {
     justify-content: flex-end;
     margin-right: 150px;
     text-decoration: underline;
+    margin-top: -30px;
+}
+
+.menu-items {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-right: 300px;
+    margin-top: -20px
 }
