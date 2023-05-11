@@ -1,4 +1,4 @@
-body{
+body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -14,32 +14,59 @@ body{
     justify-content: space-between;
 }
 
-.h1txt{
+.h1txt {
     color: #BE8750;
     font-size: 55px;
+    text-align: center;
 }
 
-#p1-size{
+#p1-size {
     font-size: 20px;
 }
 
-.socials{
+.socials {
     gap: 8px;
     display: flex;
     flex-direction: row;
     align-items: center
 }
 
-.buttons{
+.buttons {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    border-style: ridge;
+    border-style: solid;
 }
-.twitter-logo{
+
+.twitter-logo {
     border-radius: 8px;
 }
 
-.home-picture{
-    width: 15px;
+.main {
+    padding-top: 32px;
+    padding-bottom: 32px;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.home-picture {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#welcome-title {
+    font-size: 40px;
+    margin: 0;
+}
+
+.menu-headers {
+    color: #0000FF;
+    font-size: 18px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-right: 150px;
+    text-decoration: underline;
 }
