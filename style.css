@@ -77,22 +77,63 @@ body {
     text-decoration: underline;
 }
 
-.food-pics {
-    display: flex;
-    justify-content: flex-end;
-}
 
 .menu-items {
-    font-size: 18px;
+    font-size: 15px;
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
 }
 
-.menu-container {
+.menu-container{
     display: flex;
+    justify-content: space-between;
+}
+
+.menu-container img {
+    display: flex;
+    flex-direction: column;
 }
 
 .menu-list {
     display: flex;
     flex-direction: column;
+    gap: 5px;
+}
+
+.food-pics {
+    margin-left: 30px;
+}
+
+.menu-list-2 {
+    color: #0000FF;
+    font-size: 18px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-decoration: underline;
+}
+
+.dessert-container-bottom h2{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.dessert-container-bottom {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.menu-list-3 {
+    color: #0000FF;
+    font-size: 18px;
+    display: flex;
+    text-decoration: underline;
+    align-items: flex-start;
+}
+
+.about-p {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
