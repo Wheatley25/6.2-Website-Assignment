@@ -36,6 +36,13 @@ body {
     flex-direction: row;
     justify-content: space-evenly;
     border-style: solid;
+    text-decoration: none;
+}
+
+.buttons h2,
+.buttons a {
+    color: black;
+    text-decoration: none;
 }
 
 .twitter-logo {
@@ -66,16 +73,26 @@ body {
     font-size: 18px;
     display: flex;
     flex-direction: row;
-    justify-content: flex-end;
-    margin-right: 150px;
+    justify-content: center;
     text-decoration: underline;
-    margin-top: -30px;
+}
+
+.food-pics {
+    display: flex;
+    justify-content: flex-end;
 }
 
 .menu-items {
+    font-size: 18px;
     display: flex;
-    flex-direction: row;
     justify-content: flex-end;
-    margin-right: 300px;
-    margin-top: -20px
+}
+
+.menu-container {
+    display: flex;
+}
+
+.menu-list {
+    display: flex;
+    flex-direction: column;
 }
