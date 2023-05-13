@@ -60,7 +60,7 @@
         </div>
 
         <div class="form">
-            <form action="" method="post">
+            <form id="Myform">
                 <h2>
                     Please Enter your fullname: 
                 </h2>
@@ -75,8 +75,14 @@
             Write your review here: 
         </h2>
         <textarea type="text" name="review" size="60" style="height: 250px; font-size: 14px; width: 400px;" required></textarea><br><br>
-                <input type="submit" value="Submit">
+                <input type="submit" onclick="myFunction()" value="Submit">
               </form>
+
+              <script>
+                function myFunction() {
+                  document.getElementById("Myform").reset();
+                }
+                </script>
         </div>
     </main>
 
