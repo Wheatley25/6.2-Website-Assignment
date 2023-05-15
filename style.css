@@ -1,6 +1,8 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
+    /*This sets the all text within the body tag to Helvetica*/   
 }
+
 
 .logo {
     height: 150px;
@@ -12,12 +14,14 @@ body {
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
+    /*display: flex enables flex box which is used to set the position of images and text on the website*/
 }
 
 .h1txt {
     color: #BE8750;
     font-size: 55px;
     text-align: center;
+    /*sets h1 text to centre*/
 }
 
 #p1-size {
@@ -40,9 +44,11 @@ body {
 }
 
 .buttons h2,
-.buttons a {
+.buttons a, 
+.about-p p,
+.about-p a { /*targets the buttons and about-p class that are "h2" and "a" text*/
     color: black;
-    text-decoration: none;
+    text-decoration: none; /*prevents hyperlink text from being underlined and highlighted*/
 }
 
 .twitter-logo {

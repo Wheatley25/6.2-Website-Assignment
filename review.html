@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <head>
     <link rel="stylesheet" href="style.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SirCrunch</title>
 </head>
 
@@ -64,25 +64,27 @@
                 <h2>
                     Please Enter your fullname: 
                 </h2>
-            <input type="text" name="Fullname" size="20" required><br>
+            <input type="text" name="Fullname" size="20" required><br> <!--makes it so input from the user is required to submit the form-->
 
             <h2>
                 Please Enter your email: 
             </h2>
         <input type="email" name="email" size="35" required><br>
-
+        <!--input type="email" adds validation to the input box. The email address must be written in the correct format otherwise the user cannot submit the form.-->
         <h2>
             Write your review here: 
         </h2>
-        <textarea type="text" name="review" size="60" style="height: 250px; font-size: 14px; width: 400px;" required></textarea><br><br>
-                <input type="submit" onclick="myFunction()" value="Submit">
+        <textarea type="text" name="review" size="60" style="height: 250px; font-size: 14px; width: 400px;" required></textarea><br><br> 
+        <!--textarea makes it so text will go onto a new line when the text gets to the end of the box and also makes it so the text starts from the top of the box-->
+                <input type="submit" onclick="myFunction()" value="Submit"> <!--When the submit button is clicked, the function "myFunction" will run-->
               </form>
 
               <script>
                 function myFunction() {
                   document.getElementById("Myform").reset();
-                }
+                } 
                 </script>
+                <!--the function will refresh the form making it ready for entry again-->
         </div>
     </main>
 
